@@ -1,0 +1,512 @@
+/* CSS Document */
+
+#blog {
+	padding: 10px 0px;
+}
+
+#products {
+	width: auto;
+    position: relative;
+	}
+	
+#products h1 {
+	font-size: 2em;
+	font-family: "OldSansBlack", Geneva, sans-serif;
+	text-transform: capitalize;
+	margin: 0px 0px 0em;
+	color: #819617 ; /*#9f0909*/
+	text-shadow: 1px 1px 1px #999;
+	letter-spacing: 0.15em;	
+}
+	
+#products_large {
+	padding: 0px;
+	display: table; 
+	position: relative; 
+	overflow: hidden;
+	width: 300px; 
+	height: 420px;
+	}
+
+#products_layout_overlay_top{
+	position: absolute; 
+	top: 50%; 
+	display: table-cell; 
+	vertical-align: middle;	
+}
+
+#products_layout_overlay_middle{
+	position: relative; 
+	top: -50%
+}
+
+.products {
+	border: 2px solid #fff;
+	margin: 15px 5px;
+	padding: 10px;
+    position: relative;
+    overflow: hidden;
+	width: 150px; 
+	height: 210px; 
+	}
+	
+.products img{
+	width: 150px;
+	position: relative; 
+	}
+		
+.products_large {
+	border: 2px solid #fff;
+	margin: 0px 5px 15px;
+	padding: 10px;
+    position: relative;
+    overflow: hidden;
+	width: 300px; 
+	height: 420px; 
+	}	
+	
+.products_large img{
+	width: 300px;
+	position: relative;	
+}
+	
+.products_nav{
+	position:relative;	
+	}
+	
+#products_viewCart{	
+	/*position:absolute; 
+	right:15px;
+	top: -25px;*/
+}
+
+.products_layout {
+	display: table; 
+	#position: relative; 
+	overflow: hidden;
+	width: 150px; 
+	height: 210px;
+	}			
+
+.post {
+	width: auto;
+	border: 2px solid #FFF;
+	margin: 40px auto;
+	padding: 0px 0px 0px 10px;
+    position: relative;
+    overflow: hidden;
+	} 
+	
+#post_left {
+	width: 20%; 
+	position: relative; 
+	float: left; 
+	clear: left;	
+}
+
+#post_right {
+	width: 78.5%; 
+	position: relative; 
+	float: left;
+	background: #c77;
+	padding: 5px;
+	min-height: 200px;
+}
+	
+.post_layout {
+	text-align: left;
+	margin: auto;
+	vertical-align: absmiddle;
+}	
+
+.post_date {
+	position: absolute;
+	right:0;
+	text-align: right;
+	margin: 5px 5px 0px 5px; 
+	padding: 0px 10px;
+}
+
+.post_content {
+	text-align:left; 
+	position:relative;
+	margin: 0px 10px;
+}
+
+.post_title {
+	color: #900 ; 
+	font-size: xx-large;
+	font-weight: bold;
+	text-align: left;
+	margin: 10px;
+}
+	
+.profile_pic {
+	width: 125px;
+    height: 138px;
+    position: relative; 
+    margin: 10px 5px 0px 5px; 
+    border: thin #FFF dashed;
+	float: left;
+	}
+	
+.product_pic {
+	width: 125px;
+    height: 138px;
+    position: relative; 
+    margin: 0px 5px 0px 5px; 
+    border: thin #FFF dashed;
+	}	
+	
+#product_details{ 
+	padding: 0px;
+	width: 20%;
+	float: left;
+	margin: 1em;
+}
+
+#product_description{
+	height: 100px !important;
+}
+
+#list_products{
+	position:relative;
+	float:left;
+	cursor:pointer;	
+}
+
+#products_name{
+	position:relative;
+	top:-10px;
+	cursor:pointer;	
+}
+
+.post_min_height {
+	height: 200px;
+}
+
+.products_min_height {
+	height: 210px;
+}
+	
+#author{
+	background: #555;
+	opacity: 0.35;
+  	-moz-opacity: 0.35; /* older Gecko-based browsers */
+  	filter:alpha(opacity=35); /* For IE6&7 */
+	}
+	
+.author {
+	color: #FFCC00;
+	position: absolute;
+	top: 160px;
+	font-size: large;
+	font-weight: bold;
+	width: 127px;
+	text-align: center;
+	margin: 5px;
+	clear: right;
+	} 
+
+.message {
+	font-size: medium;
+    font-weight: normal;
+	}
+	
+.overlay {
+	position: absolute;
+ 	top: 0; /* These positions makes sure that the overlay */
+  	bottom: 0;  /* will cover the entire parent */
+  	left: 0; 
+  	width: 100%;
+  	background: #000;
+  	opacity: 0.45;
+  	-moz-opacity: 0.45; /* older Gecko-based browsers */
+  	filter:alpha(opacity=45); /* For IE6&7 */
+	z-index: 1;
+}
+
+.overlay_post {
+	position: absolute;
+ 	top: 0; /* These positions makes sure that the overlay */
+  	bottom: 0;  /* will cover the entire parent */
+  	left: 0; 
+  	width: 100%;
+  	background: #c8d;/* #ffb8c */
+  	opacity: 0.45;
+  	-moz-opacity: 0.45; /* older Gecko-based browsers */
+  	filter:alpha(opacity=45); /* For IE6&7 */
+}
+
+.overlay_products {
+	position: absolute;
+ 	top: 0; /* These positions makes sure that the overlay */
+  	bottom: 0;  /* will cover the entire parent */
+  	left: 0; 
+  	width: 100%;
+  	background: #000;
+  	opacity: 0.75;
+  	-moz-opacity: 0.75; /* older Gecko-based browsers */
+  	filter:alpha(opacity=75); /* For IE6&7 */
+}
+
+.height_overlay {
+	position: absolute;
+ 	top: 0; /* These positions makes sure that the overlay */
+  	bottom: 0;  /* will cover the entire parent */
+  	left: 0; 
+	width: 100%;
+  	background: #FC6;
+  	opacity: 0.45; 
+  	-moz-opacity: 0.45; /* older Gecko-based browsers */
+  	filter:alpha(opacity=45); /* For IE6&7 */
+}
+
+.height_overlay2 {
+	position: absolute;
+ 	top: 0; /* These positions makes sure that the overlay */
+  	bottom: 0;  /* will cover the entire parent */
+  	right: 0; 
+	width: 100%;
+  	background: #FC6;
+  	opacity: 0.45; 
+  	-moz-opacity: 0.45; /* older Gecko-based browsers */
+  	filter:alpha(opacity=45); /* For IE6&7 */
+}
+
+#content {
+	position: relative;
+}
+
+#height {
+	position: relative;
+}
+	
+* html .overlay { 
+  height: expression(document.getElementById("content").offsetHeight);
+}
+
+* html .overlay_products { 
+  height: expression(document.getElementById("products").offsetHeight);
+}
+
+* html .overlay_products_large { 
+  height: expression(document.getElementById("products_large").offsetHeight);
+}
+
+* html .overlay_post { 
+  height: expression(document.getElementById("content").offsetHeight);
+}
+
+* html .height_overlay { 
+  height: expression(document.getElementById("height").offsetHeight);
+}
+
+* html .height_overlay2 { 
+  height: expression(document.getElementById("height").offsetHeight);
+}
+	
+#members {
+	padding: 10px 0px;
+	margin: -10px 0px;	
+}
+
+#addPosts {
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #FFF;
+}
+
+#addCategories {
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #FFF;
+}
+
+#editPosts {
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #FFF;
+}
+
+#editCategories {
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #FFF;
+}
+
+#product_large {
+	width: 300px;
+	height:	500px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#addProducts {
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #FFF;
+} 
+
+#editProducts {
+	padding: 10px;
+	margin: 10px;
+	position: relative;
+	border: 2px solid #FFF;
+}
+
+#edit_products_pic {
+	width: 150px; 
+	position: relative; 
+	float: left; 
+	clear: right;	
+}
+
+.input_name {
+	position: relative;
+	clear: left;
+	float: left;
+	margin-right: 5px; 
+	width: 60px;
+	text-align: center; 
+	}
+	
+.input_field {
+	float: left;
+	position: relative;
+	margin-right: 10px;
+	width: auto;
+	}
+	
+#textbox {
+	position: relative;
+	float: left;
+	width: 715px;
+	}
+
+.list {
+	border: #000 1px solid;
+	padding: 0px;	
+	text-align: center;
+	position: relative;
+	color: #000;
+}
+
+.list a, .list a:visited, .list a:active, .list a:hover {
+	color: #FFF;
+}
+
+.list td{
+	border: #000 0px solid;
+	border-bottom: #000 1px solid;
+	margin: 0px;
+	padding: 3px;
+	text-align: center;
+	} 
+	
+.list tr{	
+	background: #CCC;
+	} 			
+	
+.list_nav {
+	text-align: center;
+	position: relative;
+	float: left;
+	clear: right;
+	color: #fff;
+	width: 20%;
+}
+
+#cart_table {
+	width: 90%;	
+}
+
+#cart_table_title {
+	background: #999;	
+}
+
+#admin_nav{
+	margin: 0px 0px 0px 0px;
+	position: relative;
+	width: 200px;
+	left: 0px;
+}
+	
+#admin_nav a{
+	display: block;
+}
+
+#admin_nav ul {
+	width: 600px;	
+}
+
+#admin_nav ul li {
+	list-style: none;
+	display: inline;
+	margin: 0px 8px 0px 0px;
+	float: left;
+}
+
+#members_nav {
+	margin: 0px 0px 0px 0px;
+	top: 10px;
+	position: relative;
+}
+
+#members_nav a{
+	display: block;
+}
+
+#admin_nav a, a:visited, a:active {
+	color: #c9c;		
+}
+
+#admin_nav a:hover {
+	color: #ccc;		
+}
+	
+#members_nav a, a:visited, a:active {
+	color: #c9c;
+	}
+
+#members_nav a:hover {
+	color: #ccc;
+	}
+	
+#mp_content {
+	position: relative;
+	width: auto;
+	margin: 0px 0px 25px 0px;
+}
+
+#members_content {
+	position: relative;
+}
+
+.clear {
+	clear: both;
+}
+
+form, fieldset, label {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	position: relative;	
+}
+
+legend {
+	display: none;	
+}
+
+label {
+	width: 40px;
+	color: #E00085;
+	font-weight: bold;
+	text-indent: -9999px;
+	display: block;
+}	

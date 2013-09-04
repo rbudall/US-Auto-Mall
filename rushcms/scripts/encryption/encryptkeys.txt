@@ -1,0 +1,19 @@
+So Accesso Boutique Website Encryption Keys
+
+File Location: c:/cygwin/home/Get It Done Inc/openssl-1.0.0a/ 
+
+
+
+
+
+
+
+
+
+So Accesso Boutique Public Certificate:
+	Location: 		c:/cygwin/home/Get It Done Inc/openssl-1.0.0a/my-pubcert.pem
+	Paypal Certificate ID: 	FUQ9JCYS8NWN4
+	Expiration Date:	Nov 5, 2011 20:53:30 PDT
+
+PayPal Public Certificate:
+	Location:		c:/xampp/htdocs/websites/SoAccesso/scripts/encryption/paypal-cert-pem.txt
